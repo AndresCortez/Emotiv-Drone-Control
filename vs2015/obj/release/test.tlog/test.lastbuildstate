@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v140:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=8.1
+Release|Win32|C:\Program Files (x86)\Emotiv Research Edition SDK_v1.0.0.5-PREMIUM\EmoScript Samples\doc\examples\example6\vs2015\|

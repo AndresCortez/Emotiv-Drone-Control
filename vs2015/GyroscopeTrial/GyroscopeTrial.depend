@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1449494359 source:c:\users\jose andres\desktop\estructura de datos\gyroscopetrial\main.cpp
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<glut.h>
+	<stdlib.h>
+	<iostream>
+	<conio.h>
+	<math.h>
+	"edk.h"
+	"edkErrorCode.h"
+	"EmoStateDLL.h"
+
+1321192490 c:\users\jose andres\desktop\estructura de datos\gyroscopetrial\edk.h
+	<string>
+	<sstream>
+	"edkErrorCode.h"
+	"EmoStateDLL.h"
+
+1321192490 c:\users\jose andres\desktop\estructura de datos\gyroscopetrial\edkerrorcode.h
+
+1321192490 c:\users\jose andres\desktop\estructura de datos\gyroscopetrial\emostatedll.h
+	<sys/types.h>
+

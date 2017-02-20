@@ -1,0 +1,18 @@
+﻿  drone.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\example6\drone.cpp': No such file or directory
+  ardrone.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\..\src\ardrone\ardrone.cpp': No such file or directory
+  command.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\..\src\ardrone\command.cpp': No such file or directory
+  config.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\..\src\ardrone\config.cpp': No such file or directory
+  navdata.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\..\src\ardrone\navdata.cpp': No such file or directory
+  tcp.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\..\src\ardrone\tcp.cpp': No such file or directory
+  udp.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\..\src\ardrone\udp.cpp': No such file or directory
+  version.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\..\src\ardrone\version.cpp': No such file or directory
+  video.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\..\src\ardrone\video.cpp': No such file or directory

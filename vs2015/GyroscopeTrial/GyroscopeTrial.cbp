@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="GyroscopeTrial" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/GyroscopeTrial" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x64\GlU32.Lib" />
+					<Add library="..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x64\OpenGL32.Lib" />
+					<Add library="..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\GlU32.Lib" />
+					<Add library="..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\OpenGL32.Lib" />
+					<Add library="..\..\..\..\..\Program Files (x86)\Emotiv SDK v2.0.0.20-LITE\dll\32 bit\edk.lib" />
+					<Add library="..\..\..\..\..\Program Files (x86)\Emotiv SDK v2.0.0.20-LITE\dll\32 bit\edk_utils.lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/GyroscopeTrial" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="EmoStateDLL.h" />
+		<Unit filename="edk.h" />
+		<Unit filename="edkErrorCode.h" />
+		<Unit filename="glut.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
